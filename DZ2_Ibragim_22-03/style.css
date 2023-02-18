@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  font-size: 10vw;
+  text-align: center;
+}
+.block__wrapper {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  border: 3px solid black;
+  flex-shrink: 0;
+
+}
+#block {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+  }
